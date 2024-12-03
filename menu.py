@@ -11,3 +11,5 @@ def menu(options):
             return choice
 
         print(f'Bad option; try again')
+
+if __
