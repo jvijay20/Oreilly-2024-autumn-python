@@ -5,7 +5,7 @@ def hello(name):
 
 def menu(options):
     while True:
-        choice = input('Enter your choice: ').strip()
+        choice = input(f'Enter your choice ({options}): ').strip()
 
         if choice in options:
             return choice
