@@ -12,4 +12,8 @@ def menu(options):
 
         print(f'Bad option; try again')
 
-if __
+if __name__ == '__main__':
+    print('Demoing the menu function...')
+
+    user_choice = menu(['a', 'b', 'c'])
+    print(f'You chose {user_choice}')
